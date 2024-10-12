@@ -1,0 +1,16 @@
+name: WarpSystem
+api: 5.3.0
+version: 1.0.0
+author: Jorgebyte
+
+main: Jorgebyte\WarpSystem\Main
+
+permissions:
+  warpsystem.command:
+    default: true
+  warpsystem.command.create:
+    default: op
+  warpsystem.command.delete:
+    default: op
+  warpsystem.command.edit:
+    default: op

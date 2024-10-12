@@ -1,0 +1,40 @@
+{
+    "name": "jorge/warp-system",
+    "description": "Warp creation system",
+    "type": "project",
+    "license": "Apache-2.0",
+
+    "require": {
+        "php": "^8.1",
+        "latampmdevs/commando": "dev-pm5",
+        "dresnite/easyui": "dev-pm5"
+    },
+
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^v3.12.0",
+        "phpstan/phpstan": "^1.2.0",
+        "pocketmine/pocketmine-mp": "^5.19.0",
+        "phpstan/phpstan-strict-rules": "^1.1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/LatamPMDevs/Commando.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Jorgebyte/easyui.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jorge\\WarpSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorgebyte",
+            "email": "bytejorge@gmail.com"
+        }
+    ]
+}
